@@ -12,6 +12,7 @@
   "dependencies": {
     "antd": "next",
     "axios": "^0.16.2",
+    "dva": "1.2.1",
     "lodash-decorators": "^4.4.1",
     "parallelshell": "^3.0.1",
     "react-copy-to-clipboard": "^5.0.0",
@@ -82,7 +83,6 @@
     "scaffold-build": "cd ./scaffold && npm run build && ../tool/bin/let -b",
     "scaffold-build:static": "./tool/bin/let -s && cd ./scaffold && npm run build && ../tool/bin/let -b",
     "scaffold-install": "cd ./scaffold && ../tool/bin/i",
-    "preinstall": "cd ./scaffold && ../tool/bin/i",
     "site": "rm -rf _site && npm run bisheng-build && gh-pages -d _site",
     "components-publish": "./tool/bin/let -c && cd ./config/components && npm publish",
     "clean": "rm -rf node_modules && cd ./scaffold && rm -rf node_modules",
