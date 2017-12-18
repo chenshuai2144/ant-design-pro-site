@@ -1,6 +1,4 @@
 import React from 'react';
-import OverPack from 'rc-scroll-anim/lib/ScrollOverPAck';
-import Parallax from 'rc-scroll-anim/lib/ScrollParallax';
 import QueueAnim from 'rc-queue-anim';
 import TweenOne from 'rc-tween-one';
 import PropTypes from 'prop-types';
@@ -250,21 +248,13 @@ class Page1 extends React.PureComponent {
       <div className="home-page page1" >
         <div className="home-page-wrapper" id="page1-wrapper">
           {!this.props.isMobile && (
-            <Parallax
-              className="page1-bg"
-              animation={{ translateY: 200, ease: 'linear', playScale: [0, 1.65] }}
-              location="page1-wrapper"
-            >
-              Feature
-            </Parallax>
+            'Feature'
           )}
           <h2>What can <span>Pro</span> do for you </h2>
           <div className="title-line-wrapper page1-line">
             <div className="title-line" />
           </div>
-          <OverPack>
-            {children}
-          </OverPack>
+          {children}
         </div>
       </div>
     );
