@@ -60,18 +60,14 @@ You will needs [node](http://nodejs.org/) and [git](https://git-scm.com/). The p
 
 ## Installation
 
-There are three ways to install.
+There are two ways to install.
 
 ### Clone the Git Repository
 
 ```bash
-$ git clone --depth=1 git@github.com:ant-design/ant-design-pro.git my-project
+$ git clone --depth=1 https://github.com/ant-design/ant-design-pro.git my-project
 $ cd my-project
 ```
-
-### Download the Package
-
-Download [https://github.com/ant-design/ant-design-pro/archive/master.zip](https://github.com/ant-design/ant-design-pro/archive/master.zip), and un-archive.
 
 ### Use the Command Line
 
